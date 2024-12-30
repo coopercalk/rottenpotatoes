@@ -1,0 +1,36 @@
+make[1]: Entering directory '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ext/sqlite3/tmp/x86_64-linux-gnu/ports/sqlite3/3.46.1/sqlite-autoconf-3460100'
+ /usr/bin/mkdir -p '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libsqlite3.la '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib'
+libtool: install: /usr/bin/install -c .libs/libsqlite3.lai /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib/libsqlite3.la
+libtool: install: /usr/bin/install -c .libs/libsqlite3.a /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib/libsqlite3.a
+libtool: install: chmod 644 /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib/libsqlite3.a
+libtool: install: x86_64-linux-gnu-ranlib /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib/libsqlite3.a
+libtool: finish: PATH="/home/cooper/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/cooper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/coope/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Apache/Maven/apache-maven-3.9.9/bin:/mnt/c/sqlite:/mnt/c/Ruby33-x64/bin:/mnt/c/Users/coope/.cargo/bin:/mnt/c/Users/coope/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/coope/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/coope/AppData/Roaming/npm:/mnt/c/Users/coope/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/coope/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/coope/AppData/Local/Programs/mongosh/:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/coope/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/snap/bin:/sbin" ldconfig -n /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c sqlite3 '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/bin'
+libtool: install: /usr/bin/install -c sqlite3 /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/bin/sqlite3
+ /usr/bin/mkdir -p '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/include'
+ /usr/bin/install -c -m 644 sqlite3.h sqlite3ext.h '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/include'
+ /usr/bin/mkdir -p '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/share/man/man1'
+ /usr/bin/install -c -m 644 sqlite3.1 '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/share/man/man1'
+ /usr/bin/mkdir -p '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib/pkgconfig'
+ /usr/bin/install -c -m 644 sqlite3.pc '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ports/x86_64-linux-gnu/sqlite3/3.46.1/lib/pkgconfig'
+make[1]: Leaving directory '/home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.0.0/gems/sqlite3-2.0.4/ext/sqlite3/tmp/x86_64-linux-gnu/ports/sqlite3/3.46.1/sqlite-autoconf-3460100'
