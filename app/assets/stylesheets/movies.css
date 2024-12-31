@@ -1,0 +1,82 @@
+/* app/assets/stylesheets/custom.css */
+.sorted-asc {
+    background-color: #d1e7dd; /* Light green for ascending */
+  }
+  
+  .sorted-desc {
+    background-color: #f8d7da; /* Light red for descending */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tfoot td {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .notice {
+    color: green;
+    font-weight: bold;
+  }
+
+  .title_header {
+    background-color: #5b97ff;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d7e3f8;
+  }
+
+
+  .btn {
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .btn-edit {
+    background-color: #5b97ff;
+  }
+  
+  .btn-back {
+    background-color: #6c757d;
+  }
+  
+  .btn-destroy {
+    background-color: #dc3545;
+  }
+
+  .btn-show {
+    background-color: #28a745;
+  }
+  
+  .movie-details {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  .movie-actions {
+    margin-top: 20px;
+  }
+
+  .form-container {
+    padding: 20px;
+    background-color: #ddd1ff;
+    border: 1px solid #4e52d4;
+    margin-bottom: 20px;
+  }
