@@ -1,0 +1,19 @@
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+/home/cooper/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-ccywn4 sitelibdir\=./.gem.20241231-28763-ccywn4 clean
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-ccywn4 sitelibdir\=./.gem.20241231-28763-ccywn4
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-ccywn4 sitelibdir\=./.gem.20241231-28763-ccywn4 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20241231-28763-ccywn4/debug
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-ccywn4 sitelibdir\=./.gem.20241231-28763-ccywn4 clean

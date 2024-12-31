@@ -1,0 +1,18 @@
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/home/cooper/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-l72kiz sitelibdir\=./.gem.20241231-28763-l72kiz clean
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-l72kiz sitelibdir\=./.gem.20241231-28763-l72kiz
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-l72kiz sitelibdir\=./.gem.20241231-28763-l72kiz install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20241231-28763-l72kiz/racc
+
+current directory: /home/cooper/CSCE431/PA2-431/rottenpotatoes/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241231-28763-l72kiz sitelibdir\=./.gem.20241231-28763-l72kiz clean
