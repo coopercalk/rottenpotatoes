@@ -1,10 +1,12 @@
 <h1>Editing movie</h1>
 
-<%= render "form", movie: @movie %>
-
+<div class="form-container">
+  <%= render "form", movie: @movie %>
+</div>
 <br>
 
-<div>
-  <%= link_to "Show this movie", @movie %> |
-  <%= link_to "Back to movies", movies_path %>
+<div class="movie-actions">
+  <%= link_to "Show this movie", @movie, class: 'btn btn-show' %> |
+  <%= link_to "Back to movies", movies_path(sort: session[:sort], 
+              direction: session[:direction] == 'asc' ? 'asc' : 'desc'), class: 'btn btn-back' %>
 </div>
