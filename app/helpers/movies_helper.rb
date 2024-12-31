@@ -5,10 +5,10 @@ module MoviesHelper
   end
   
   def next_sort_direction(column)
-    if params[:sort] != column
-      'asc'
+    if params[:sort] == column && params[:direction] == 'asc'
+      'desc'
     else
-      params[:direction] == 'asc' ? 'desc' : 'asc'
+      'asc'
     end
   end
 end

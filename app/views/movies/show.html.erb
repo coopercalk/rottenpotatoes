@@ -5,8 +5,7 @@
 </div>
 
 <div class="movie-actions">
-  <%= link_to "Edit this movie", edit_movie_path(@movie), class: 'btn btn-edit' %> |
-  <%= link_to "Back to movies", movies_path(sort: session[:sort], 
-              direction: session[:direction] == 'asc' ? 'desc' : 'asc'), class: 'btn btn-back' %>
+  <%= link_to "Edit this movie", edit_movie_path(@movie), class: 'btn btn-edit' %>
+  <%= link_to "Back to movies", movies_path(sort: session[:sort], direction: session[:direction]), class: 'btn btn-back' %>
   <%= button_to "Destroy this movie", @movie, method: :delete, class: 'btn btn-destroy' %>
 </div>
